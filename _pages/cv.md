@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Computational Biology, UMBC.  2016.
+* Ph.D in Biological Sciences, UMBC.  2016.
 
 Work experience
 ======
