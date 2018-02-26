@@ -16,11 +16,8 @@ startup focused on modeling casualty risk through machine learning,
 natural language processing and geospatial analysis.
 
 Previously I was a research assistant in the <a
-href="compbio.umbc.edu">Erill Lab</a> at UMBC, where I completed my
+href="http://compbio.umbc.edu">Erill Lab</a> at UMBC, where I completed my
 Ph.D. in 2016.  My research centered broadly on understanding how
 bacterial cells compute their metabolism, and specifically on
 biophysical models of transcription factor / binding site
 co-evolution.
-
-
-
