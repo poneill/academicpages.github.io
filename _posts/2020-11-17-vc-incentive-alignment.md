@@ -7,11 +7,10 @@ tags:
 
 Shared ownership is supposed to align incentives.  If two founders
 each own 50% of a given company, then they will tend to want the same
-things for that company.
-
-But consider a founder with 99% of a company and an investor with
-1%-- do these actors always have the same incentives?  Not
-necessarily.  To see why, consider the following model.
+things for that company.  But consider a founder with 99% of a company
+and an investor with 1%-- do these actors always have the same
+incentives?  Not necessarily.  To see why, consider the following
+model.
 
 Suppose that the ultimate value of a company can be modeled by a log
 normal distribution $X \sim \mathcal{LN}(\mu, \sigma^2)$.  Assuming
