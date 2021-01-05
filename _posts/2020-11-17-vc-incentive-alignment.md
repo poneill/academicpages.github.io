@@ -1,6 +1,6 @@
 ---
 title: VC Incentive Alignment
-date: 2021-01-04
+date: 2020-11-17
 tags:
   - math
 ---
