@@ -1,9 +1,8 @@
 ---
-title: Sloppy Models
+title: Sloppy Models: Background and Motivation
 date: 2021-01-04
 tags:
   - sloppy_models
-  - sloppy_pecans
 ---
 
 One of the most influential lectures I ever caught in grad school was
