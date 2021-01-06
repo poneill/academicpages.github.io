@@ -15,7 +15,7 @@ consider the following model.
 Suppose that the ultimate value of a company can be modeled by a log
 normal distribution $X \sim \mathcal{LN}(\mu, \sigma^2)$.  Assuming
 log utility, a single founder who owns the entire company receives the
-expected utility
+expected utility,
 
 $$U_F = E[\log(X)] = \mu.$$
 
