@@ -7,10 +7,10 @@ tags:
 
 Shared ownership is supposed to align incentives.  If two founders
 each own 50% of a given company, then they will tend to want the same
-things for that company.  But consider a founder with 99% of a company
-and an investor with 1%-- do these actors always have the same
-incentives?  Not necessarily.  To see why, consider the following
-model.
+things for that company.  But consider a founder who owns 99% of one
+company and an investor who owns 1% of 99 companies-- do these actors
+always have the same incentives?  Not necessarily.  To see why,
+consider the following model.
 
 Suppose that the ultimate value of a company can be modeled by a log
 normal distribution $X \sim \mathcal{LN}(\mu, \sigma^2)$.  Assuming
@@ -19,16 +19,16 @@ expected utility
 
 $$U_F = E[\log(X)] = \mu.$$
 
-That is to say, the utility scales only with the mean and does not
+That is to tersay, the utility scales only with the mean and does not
 depend on the variance, as the fluctuations in returns are precisely
 canceled by the log utility function: the founder in this scenario is
 perfectly indifferent to the variance.
 
 Now consider the case of an investor who owns a $1\%$ stake in $100$
 companies, each of whose valuations is independently and identically
-distributed as $LN(\mu, \sigma)$.  The investor's portfolio
+distributed as $\mathcal{LN}(\mu, \sigma^2)$.  The investor's portfolio
 $Y = \frac{1}{N}\sum_{i=1}^{100} X_i$ is the arithmetic mean of $N$ log-normal
-random variates.  The portfolio has first two moments:
+random variates.  The portfolio has the first two moments:
 
 $$\begin{align*}
   E[Y] =& \exp{\left(\mu + \frac{\sigma^2}{2}\right)}\\\\
@@ -74,7 +74,7 @@ increase in $\sigma^2$, i.e. $\Delta \sigma^2 > -2\Delta \mu$.
 
 This argument is summarized graphically in the diagram below:
 
-![Diagram](/assets/vc-incentive-alignment/axis3.png)
+![Diagram](/assets/vc-incentive-alignment/axis4.png)
 
 Considering the company as a point in a parameter space, the founder
 benefits most from pushing the state of the business in the direction
@@ -89,11 +89,11 @@ but not the other.
 
 Are founders and investors explicitly thinking of companies as
 log-normal random variables?  Not necessarily.  This is, of course, a
-highly stylized model that leaves a lot out in order to caricature one
-particular dynamic.  But every day, founders get up and tweak
-parameters that make successes of various sizes more or less likely.
-It's not such a leap to think of startups as random variables whose
-parameters you can modify with effort.
+highly stylized model that caricatures one particular dynamic.  But
+every day, founders get up and tweak parameters that make successes of
+various sizes more or less likely.  It's not such a leap to think of
+startups as random variables whose parameters you can modify with
+effort.
 
 A friend of mine with a lot of experience in the startup world noticed
 that investors would come in and make suggestions that didn't seem to
@@ -105,6 +105,6 @@ founders, who presumably didn't relish the thought of betting years of
 hard work on a lottery ticket, this advice seemed very bad.  Did the
 investors simply not know what they were talking about?
 
-It's far more likely that the investors did know what they were
-talking about-- they were just giving the advice that suited their own
-interests, which might not necessarily be yours.
+More likely, the investors did know what they were talking about--
+they were just giving the advice that suited their own interests,
+which might not necessarily be yours.
