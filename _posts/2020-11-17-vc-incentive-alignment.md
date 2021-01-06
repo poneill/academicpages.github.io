@@ -19,7 +19,7 @@ expected utility
 
 $$U_F = E[\log(X)] = \mu.$$
 
-That is to tersay, the utility scales only with the mean and does not
+That is to say, the utility scales only with the mean and does not
 depend on the variance, as the fluctuations in returns are precisely
 canceled by the log utility function: the founder in this scenario is
 perfectly indifferent to the variance.
